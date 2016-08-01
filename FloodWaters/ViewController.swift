@@ -175,7 +175,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         let rightCalloutView = UIView(frame: CGRectMake(0,0,80,80))
         rightCalloutView.backgroundColor = UIColor.redColor()
         
-        let deleteButton = UIButton(frame: CGRectMake(0,-15,80,80))
+        let deleteButton = UIButton(frame: CGRectMake(0,-17.5
+            ,80,80))
         deleteButton.titleLabel?.textColor = UIColor.whiteColor()
         deleteButton.setTitle("Delete", forState: UIControlState.Normal)
         deleteButton.addTarget(self, action: #selector(removeAnnotation), forControlEvents:UIControlEvents.TouchUpInside)
